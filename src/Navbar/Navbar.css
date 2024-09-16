@@ -1,0 +1,10 @@
+.language p {
+    font-size: 19px;
+    text-align: right;
+}
+
+h6 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 1rem;
+}

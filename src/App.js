@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import AddApi from './Api/AddApi';
 import './App.css';
-
+import AppStore from './Component/AppStore/AppStore';
+import Search from './Component/Search';
+import Navbar from './Navbar/Navbar';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+     <Navbar/>
+     <Search/>
+     <AppStore/>
+     <AddApi/>
     </div>
   );
 }
